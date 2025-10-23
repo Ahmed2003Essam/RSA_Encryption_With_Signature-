@@ -21,3 +21,8 @@ A C++ program that **encrypts and decrypts messages using the RSA algorithm**, s
 ## Tech Stack
 * C++
 * Standard libraries: <bits/stdc++.h>, <iostream>, <vector>
+
+## Notes
+* Uses modular exponentiation to handle large numbers efficiently.
+* Demonstrates the core RSA process: **key generation, encryption, and signature creation.**
+
