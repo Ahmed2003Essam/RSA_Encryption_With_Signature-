@@ -9,7 +9,7 @@ A C++ program that **encrypts messages using the RSA algorithm**, supporting lon
 
 ## How It Works
 1. Generates two prime numbers p and q and computes n = p*q.
-2 .Calculates Euler's totient (p-1)*(q-1) to find coprime numbers for encryption.
+2. Calculates Euler's totient (p-1)*(q-1) to find coprime numbers for encryption.
 3. Chooses a public key e and computes a private key d.
 4. Converts each character in the message to its ASCII code.
 5. Encrypts the message using modular exponentiation:
