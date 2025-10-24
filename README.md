@@ -20,7 +20,6 @@ A C++ program that **encrypts messages using the RSA algorithm**, supporting lon
 
 ## Tech Stack
 * C++
-* Standard libraries: <bits/stdc++.h>, <iostream>, <vector>
 
 ## Notes
 * Uses modular exponentiation to handle large numbers efficiently.
