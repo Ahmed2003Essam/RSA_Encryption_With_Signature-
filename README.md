@@ -1,5 +1,5 @@
 # 🔐RSA Encryption (C++)
-A C++ program that **encrypts and decrypts messages using the RSA algorithm**, supporting long text messages and a wide range of symbols. The project demonstrates **public-key cryptography**, including message signing and key generation
+A C++ program that **encrypts messages using the RSA algorithm**, supporting long text messages and a wide range of symbols. The project demonstrates **public-key cryptography**, including message signing and key generation
 
 ## 🚀 Features
 * Encrypts messages using RSA public and private keys.
