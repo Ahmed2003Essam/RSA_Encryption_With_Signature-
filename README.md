@@ -11,12 +11,11 @@ A C++ program that **encrypts messages using the RSA algorithm**, supporting lon
 1. Generates two prime numbers p and q and computes n = p*q.
 2. Calculates Euler's totient (p-1)*(q-1) to find coprime numbers for encryption.
 3. Chooses a public key e and computes a private key d.
-4. Converts each character in the message to its ASCII code.
-5. Encrypts the message using modular exponentiation:
-6. ```cpp
+4. Encrypts the message using modular exponentiation:
+5. ```cpp
    encrypted_char = (ascii_char^e) % n
-7. Generates a digital signature using the private key.
-8. Outputs the **public key, encrypted message, and digital signature.**
+6. Generates a digital signature using the private key.
+7. Outputs the **public key, encrypted message, and digital signature.**
 
 ## Tech Stack
 * C++
